@@ -1,0 +1,5 @@
+# ignored folders and files for repository
+
+node_modules/
+
+.env
