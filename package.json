@@ -1,0 +1,23 @@
+{
+  "name": "restapi-simple-sequelize",
+  "version": "1.0.0",
+  "description": "Notes, task and other control application, by user",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
+  },
+  "keywords": [],
+  "author": "Andhy Ralac",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "cors": "2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "4.17.2",
+    "express-validator": "6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "2.3.3",
+    "sequelize": "6.12.5"
+  }
+}
